@@ -1,0 +1,24 @@
+<ion-card class="card">
+  <ion-card-header >
+    <ion-item class="shadow">
+      <ion-label class="title">{{title}} <span class="del" (click)="delete()">X</span></ion-label>
+    </ion-item>
+  </ion-card-header>
+
+  <ion-card-content>
+    <ion-grid>
+      <ion-row>
+        <ion-col class="shadow gap">
+          <ion-label class="label">Goals</ion-label>
+          <ion-item class="goal" *ngFor="let goal of goals;">
+            <ion-label>{{goal}}</ion-label>
+            <ion-checkbox slot="start"></ion-checkbox>
+          </ion-item>
+        </ion-col>
+        <ion-col class="shadow gap">
+          <app-timer [time]="time"></app-timer>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card-content>
+</ion-card>
