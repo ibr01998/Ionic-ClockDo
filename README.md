@@ -79,13 +79,14 @@ it will build you app and when done give you a notification to go too the downlo
 
 Add Task
 
-<img src="img/1.png"> <img src="img/2.png">
-<img src="img/3.png">
-<img src="img/4.png">
-<img src="img/5.png">
-<img src="img/6.png">
-<img src="img/7.png">
-<img src="img/8.png">
+<img src="img/1.jpeg"> 
+<img src="img/2.jpeg">
+<img src="img/3.jpeg">
+<img src="img/4.jpeg">
+<img src="img/5.jpeg">
+<img src="img/6.jpeg">
+<img src="img/7.jpeg">
+<img src="img/8.jpeg">
 
 
 
