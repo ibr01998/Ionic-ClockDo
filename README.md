@@ -77,8 +77,6 @@ it will build you app and when done give you a notification to go too the downlo
 
 ## Screenshots 
 
-Add Task
-
 <img src="img/1.jpeg"> 
 <img src="img/2.jpeg">
 <img src="img/3.jpeg">
