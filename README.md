@@ -38,10 +38,10 @@ We'll add 3 inputs. One for Title, one for Goal and one for the Timer. The Titel
 The goals input will just be a time input, but here you have the ability to add as many new input fields as the user wants. 
 We'll achieve this by putting a for-loop around the input Goal field, and adding an add button above the field. When clicked on it, will increment an array. So that the Goals for-loop will add another input field.
 
-and for the clock we'll use an ionic DateTime component.
+and for the clock we'll use an ionic DateTime componenFt.
 The component give us a lot of control. We first specify that we're going to be using minutes and seconds. When retrieving the time from the DayTime component, We'll get back not only the time but also the date which we have to separate. We do this by splitting the variable so we only get back MM:SS. 
 
-We have everything we need now to form a full task. We just have to save it somewhere now. For that we'll be using a DataService. The DataService will have a Todo model. So you'll have to add a class called Todoand give it a Title string, a Goal string array and a Time string.
+We have everything we need now to form a full task. We just have to save it somewhere now. For that we'll be using a Service will call ours 'data.service.ts'. The DataService will have a Todo model. So you'll have to add a class called Todoand give it a Title string, a Goal string array and a Time string.
 
 Going back to the DataService, here we'll also import the capacitor storage component. Using this storage component we'll be able to save the Todo's array onto our local device.
 We will also be using the DataService to share the Todo's data between different components. This way we can easily acces all Todo's, edit them and give it back to the DataService.
